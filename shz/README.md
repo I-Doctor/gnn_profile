@@ -1,9 +1,9 @@
 # Usage
 
-Download DGL (0.7.x) source codes and copy these two files into the directory as follows,
-
+Download the source codes of [DGL 0.7.x](https://github.com/dmlc/dgl/tree/0.7.x) and copy *run_time.py* and *run_profile.py* into the directory as follows,
+```
 (path to dgl)/examples/pytorch/model_zoo/citation_network/
-
+```
 To see the running times in diferent stages, run this,
 ```
 python run_time.py --gpu 0 --model chebnet --dataset cora --self-loop
